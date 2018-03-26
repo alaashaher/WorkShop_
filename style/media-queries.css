@@ -1,0 +1,368 @@
+/* for large screen*/
+@media (max-width:1366px){
+    header{
+        height: 550px;
+    }
+    .logo{
+        margin-left: 8%;
+        margin-top: 58px;
+    }
+    .name {
+        margin-left: 12%;
+        font-size: 42px;
+        line-height: 1;
+        margin-top: 40px;
+    }
+    .right_menu {
+        display: block;
+        margin-top: -20px;
+        width: 60%;
+    }
+    .header_conent {
+        font-size: 30px;
+    }
+    #home ul {
+        display: none;
+        margin-top: -40px;
+        margin-left: 20%;
+    }
+    #home ul ul {
+	   top:240%;
+    }
+    .schedule_content {
+        width: 70%;
+        float: left;
+    }
+    .tab button {
+        padding: 15px 15px;
+        width: 180px;;
+    }
+    .tabcontent img {
+        width: 40%;
+        height: 20%;
+        margin-top: -26%;
+    }
+    .suggestions {
+        margin-top: -300px;
+        width: 30%;
+        float: right;
+    }
+    .suggestions .mail {
+        width: 50%;
+    }
+    .suggestions .suggestions_text {
+        width: 70%;
+    }
+    .suggestions_image {
+        display: none;
+    }
+    #blog{
+        margin-top: 430px;
+    }
+    #blog .pic {
+        width: 30%;
+        display: inline-block;
+        margin-left: 10%;
+    }
+    #blog .pic .holder .preview {
+        width: 314px;
+    }
+    .apply_our_team {
+        width: 50%;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: -8px;
+    }
+    
+    .apply_our_team .applytitle {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }    
+    #our_team .overly {
+        background:rgba(0,0,0,0.2);
+        width:51%;
+        height:100%;
+        float: right;
+        margin-top: 50px;
+    }
+    #our_team {
+        margin-top: 100px;
+    }
+    .w3-left, .w3-right {
+        display: block;
+    }
+    .our_team_body {
+        color: white;
+        text-shadow: 2px 2px brown;
+        font-size: 25px;
+        font-weight: bolder;
+        margin-top: -110px;
+    }
+    
+    #soponsor {
+        height: 300px;
+        background-color: rgb(225,160,66);
+        margin-left: -8px;
+        padding-top: 20px;
+        margin-top: 0px;
+        width: 50%;
+        float: right;
+    }
+    
+    #soponsor .section_description {
+        text-shadow: 0px 0px ;
+        color: rgb(128,0,64);
+    }
+    
+    .soponsor_logo {
+        margin-top: 20px;
+    }
+    
+    .soponsorus {
+        width: 100px;
+        height: 30px;
+        margin-top: 40px;
+        color: rgb(225,160,66);
+        font-weight: bold;
+        background-color: rgb(128,0,64);
+        border-color: rgb(128,0,64);
+    }
+    
+    #map {
+        height: 49%;
+        width: 52%;
+        margin-top: -19%;
+        position: absolute;
+        float: left;
+        margin-left: -51%;
+    }   
+    .address {
+        width: 150px;
+        height: 60px;
+        z-index: 3;
+        margin-left: -50%;
+        margin-top: 0%;
+        position:absolute;
+        padding-left: 10px;
+        padding-top: 10px;
+        background-color: white;
+    }
+    footer {
+        padding-top: 20px;
+        margin-top:310px;
+    }
+    .up {
+        margin-left: 1%;
+        margin-top: 7px;
+    }
+}
+
+/*smart phones & tablets*/
+@media (min-width:481px) and (max-width:767px){
+    .logo{
+        margin-left: 8%;
+        margin-top: 42px;
+    }
+    .name {
+        margin-left: 17%;
+        font-size: 28px;
+        line-height: 1;
+        margin-top: 35px;
+    }
+    .right_menu {
+        display: none;
+    }
+    #home ul {
+        margin-top: -50px;
+    }
+    #home ul ul {
+        display:none;
+        position:absolute;
+        top:220%;
+    }
+    .schedule_content {
+        width: 100%;
+    }
+    .tab button {
+        padding: 15px 15px;
+    }
+    .tabcontent img {
+        width: 50%;
+        height: 80%;
+    }
+    .suggestions {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .suggestions .mail {
+        width: 200%;
+    }
+    .suggestions .suggestions_text {
+        width: 250%;
+    }
+    .suggestions_image {
+        display: none;
+        margin-left: 180%;
+        margin-top: -180px;
+        width: 150px;
+    }
+    .submit {
+        margin-left: 100%;
+    }
+    #blog{
+        margin-top: 60px;
+    }
+    .suggestions {
+        width: 30%;
+    }
+    #blog .pic {
+        width: 100%;
+        display: block;
+        margin-left: -3%;
+    }
+    #blog .pic .holder .preview {
+        width: 417px;
+    }
+    .apply_our_team {
+        width: 100%;
+        margin-top: 70px;
+    }
+    
+    #our_team .apply_our_team .formapply input {
+        width: 300px;
+    }
+    #map{
+        width: 150%;
+        height: 220px;
+        margin-top: 65px;
+    }
+    .address {
+        margin-top: 400px;
+        margin-left: 20%;
+    }
+    footer {
+        margin-top: 220px;
+    }
+    #soponsor {
+        width: 100%;
+        margin-left: -8px;
+    }
+}
+/*small screen*/
+@media (min-width:768px) and (max-width:991px){
+    .logo{
+        margin-left: 5%;
+        margin-top: 42px;
+    }
+    .name {
+        margin-left: 15%;
+        font-size: 28px;
+        line-height: 1;
+    }
+    #home ul {
+        display: none;
+    }
+    .right_menu {
+        width: 75%;
+        margin-left: 35%;
+        font-size: 18px;
+        margin-top: -50px;
+        display: block;
+    }
+    .schedule_content {
+        width: 95%;
+    }
+    .tab button{
+        width: 150px;
+    }
+    .tabcontent img {
+        margin-left: -100px;
+        width: 300px;
+        height: 180px;
+    }
+    .suggestions {
+        margin-top: 50px;
+        width: 100%;
+        float: left;
+    }
+    .suggestions .mail {
+        width: 100%;
+    }
+    .suggestions .suggestions_text {
+        width: 107%;
+    }
+    .suggestions_image {
+        display: block;
+        margin-left: 180%;
+        margin-top: -180px;
+        width: 180px;
+    }
+    #blog{
+        margin-top: 730px;
+    }
+    .tab button {
+        padding: 14px 15px;
+    }
+    .suggestions {
+        width: 30%;
+    }
+    #blog .pic .holder{
+        margin-left: 10%;
+    }
+    #blog .pic .holder .preview {
+        width: 418px;
+    }
+    #our_team .apply_our_team .formapply input {
+        width: 250px;
+    }
+    .w3-left, .w3-right {
+        display: block;
+    }
+    .our_team_body{
+        margin-top: -60px;
+    }
+    #map{
+        height: 320px;
+        margin-top: 8%;
+        width: 102%;
+    }
+    .up {
+        margin-left: 5%;
+    }
+    footer {
+        margin-top: 322px;
+    }
+}
+
+/*medium screen*/
+@media (min-width:992px) and (max-width:1199px){
+    .logo{
+        margin-left: 5%;
+    }
+    .name {
+        margin-left: 10%;
+    }
+    .right_menu {
+        margin-left: 35%;
+        width: 65%;
+    }
+    .schedule_content {
+        width: 65%;
+    }
+    .tab button {
+        padding: 14px 15px;
+    }
+    .suggestions {
+        width: 30%;
+    }
+    #blog .pic .holder .preview {
+        width: 250px;
+    }
+    #map{
+        height: 320px;
+        margin-top: -1.8%;
+    }
+}

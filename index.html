@@ -1,0 +1,273 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+
+  	<title>Programming Workshop</title>
+
+  	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+	<link rel="stylesheet" type="text/css" href="style/media-queries.css">
+  	<link rel="shortcut icon" type="image/png" href="image/sitelogo.png" sizes="16x16"/>
+
+
+</head>
+<body>
+    <!-- start header -->
+		<header id="home">
+                <div class="w3-content w3-display-container">
+                    <div class="header_info">
+                        <div><img src="image/sitelogo.png" class="logo"></div>
+                        <div class="name"> <samp class="part1">WorkShop</samp><br><samp class="font_green part2">CODING</samp></div>
+					</div>
+					<div class="right_menu right">
+							<a href="#home" class="menu">HOME</a>
+							<a href="#schedule" class="menu">SCHEDULE</a>
+							<a href="#blog" class="menu">BOLG</a>
+							<a href="#our_team" class="menu">ABOUT US</a>
+							<a href="#footer" class="menu">CONTACT US</a>
+					</div>
+                </div>
+                <ul>
+				    <li><a href="#">MENU</a>
+				        <ul>
+						  <li><a href="#home" class="menu">HOME</a></li>
+						  <li><a href="#schedule" class="menu">SCHEDULE</a></li>
+                          <li><a href="#blog" class="menu">BOLG</a></li>
+						  <li><a href="#our_team" class="menu">ABOUT US</a></li>
+						  <li><a href="#footer" class="menu">CONTACT US</a></li>
+				        </ul>
+				    </li>
+                </ul>
+                <div class="text-center header_conent">WELCOME!<br>"We Hope to help you finding your needs here as much as possible in our workshop :)"<br><br><br> <samp>more description</samp></div>    
+        </header>
+    <!-- end header -->
+    
+    <!-- schedule start -->
+		<section id="schedule">
+			<div class="section_title text-center">Our Schedule</div>
+			<div class="section_description text-center">"this is our workshop schedule to help you to know your next step." </div>
+			<div class="schedule_content">
+				<div class="tab">
+				<button class="tablinks" onclick="opencours(event, 'WebDesgin')" id="defaultOpen">Web Desgin</button>
+				<button class="tablinks" onclick="opencours(event, 'WebDeveloping')">Web Deveolping</button>
+				<button class="tablinks" onclick="opencours(event, 'MobileDeveloping')">Mobile Deveolping</button>
+				<button class="tablinks" onclick="opencours(event, 'GraphicsDesign')">Graphics Design</button>
+				<button class="tablinks" onclick="opencours(event, 'MoreCourse')">More Course</button>
+				</div>
+
+				<div id="WebDesgin" class="tabcontent">
+				<h3>that is the Schedule of Web Desgin </h3>
+				<ol>
+					<li><a href="#">HTML</a> &nbsp; &nbsp; &nbsp;(2 Week)</li> 
+					<li><a href="#">css</a>&nbsp; &nbsp; &nbsp;(3 Week)</li>
+					<li><a href="#">HTML5</a>&nbsp; &nbsp; &nbsp;(1 Week)</li> 
+					<li><a href="#">css3</a>&nbsp; &nbsp; &nbsp; (1 Week)</li>
+					<li><a href="#">Java Scripit</a>&nbsp; &nbsp; (4 Week)</li>
+					<li><a href="#">JQuary</a>&nbsp; &nbsp; &nbsp; (4 Week)</li> 
+					<li><a href="#">type Scripit</a>&nbsp; &nbsp; &nbsp; (3 Week)</li>
+					<li><a href="#">angular</a>&nbsp; &nbsp; &nbsp; (2 Week)</li>
+					<li><a href="#">Pug</a>&nbsp; &nbsp; &nbsp; (1 Week)</li>
+				</ol>
+					* Note that after any of pranch there will be some pracites
+				<img src="image/course_image2.jpg">
+				</div>
+
+				<div id="WebDeveloping" class="tabcontent">
+				<h3>that is the Schedule of Web Developing </h3>
+				<ol>
+					<li><a href="#">HTML</a></li> 
+					<li><a href="#">css</a></li>
+					<li><a href="#">HTML</a></li> 
+					<li><a href="#">css3</a></li>
+					<li><a href="#">HTML5</a></li> 
+					<li><a href="#">Java Scripit</a></li>
+					<li><a href="#">JQuary</a></li> 
+					<li><a href="#">type Scripit</a></li>
+					<li><a href="#">angular</a></li>
+					<li><a href="#">Pug</a></li>
+				</ol>
+					<img src="image/course_image3.jpg">
+				</div>
+
+				<div id="MobileDeveloping" class="tabcontent">
+				<h3>that is the Schedule of Mobile Developing </h3>
+				<ol>
+					<li><a href="#">HTML</a></li> 
+					<li><a href="#">css</a></li>
+					<li><a href="#">HTML</a></li> 
+					<li><a href="#">css3</a></li>
+					<li><a href="#">HTML5</a></li> 
+					<li><a href="#">Java Scripit</a></li>
+					<li><a href="#">JQuary</a></li> 
+					<li><a href="#">type Scripit</a></li>
+					<li><a href="#">angular</a></li>
+					<li><a href="#">Pug</a></li>
+				</ol>
+					<img src="image/course_image4.jpg">
+				</div>
+				
+				<div id="GraphicsDesign" class="tabcontent">
+				<h3>that is the Schedule of Graphics Design </h3>
+				<ol>
+					<li><a href="#">HTML</a></li> 
+					<li><a href="#">css</a></li>
+					<li><a href="#">HTML</a></li> 
+					<li><a href="#">css3</a></li>
+					<li><a href="#">HTML5</a></li> 
+					<li><a href="#">Java Scripit</a></li>
+					<li><a href="#">JQuary</a></li> 
+					<li><a href="#">type Scripit</a></li>
+					<li><a href="#">angular</a></li>
+					<li><a href="#">Pug</a></li>
+				</ol>
+					<img src="image/course_image1.jpg">
+				</div>
+				
+				<div id="MoreCourse" class="tabcontent">
+				<h3>there are more courses in our work shop </h3>
+				<ol>
+					<li><a href="#">HTML</a></li> 
+					<li><a href="#">css</a></li>
+					<li><a href="#">HTML</a></li> 
+					<li><a href="#">css3</a></li>
+					<li><a href="#">HTML5</a></li> 
+					<li><a href="#">Java Scripit</a></li>
+					<li><a href="#">JQuary</a></li> 
+					<li><a href="#">type Scripit</a></li>
+					<li><a href="#">angular</a></li>
+					<li><a href="#">Pug</a></li>
+				</ol>
+				</div>
+			</div>
+			
+			<div class="suggestions">
+				<form>
+					<input type="email" value="Enter Your mail" class="mail" id="input" onfocus="this.value=''"><br>
+					<textarea class="suggestions_text" onfocus="this.value=''" > Enter your suggestion to improve our work shop</textarea><br>
+					<div class="text-center"><button class="submit">Submit!</button></div>
+					<div><img src="image/sitelogo1.png" class="suggestions_image"></div>
+				</form>
+			</div>
+		</section>
+	<!-- schedule end -->
+	<!-- past project start -->
+	<section id="blog">
+			<div class="section_title text-center">Lastest Work</div>
+			<div class="section_description text-center">"this is the example of the our develper work, you can take a look on it." </div>
+		   <!-- potos and title of lastest projects -->
+		   <div class="blog_body">
+			   <div class="pic text-center">
+				   <div class="holder">
+					   <div class="preview">
+						   <img src="image/deep.png" alt="website"><br>
+					   </div>
+				   </div>
+				   <div  class="text-center"><samp class="site_name">*DEEP SITE*</samp></div><br>
+				   <div class="text-center"> <samp class="site_descrapatiom">this is desgined by one of our student, it was about one of most important site desgined by him</samp></div><br>
+				   <div class="text-center"><samp class="know_more">Know More</samp></div>
+			   </div>
+			   <div class="pic text-center">
+				   <div class="holder">
+					   <div class="preview">
+						   <img src="image/Final.png" alt="website">
+					   </div>
+				   </div>
+				   <div  class="text-center"><samp class="site_name">*FINAL SITE*</samp></div><br>
+				   <div class="text-center"> <samp class="site_descrapatiom">this is desgined by one of our student, it was about one of most important site desgined by him</samp></div><br>
+				   <div class="text-center"><samp class="know_more">Know More</samp></div>
+			   </div>
+			   <div class="pic text-center">
+				   <div class="holder">
+					   <div class="preview">
+						   <img src="image/bonfire.png" alt="website">
+					   </div>
+				   </div>
+				   <div  class="text-center"><samp class="site_name">*BONFIRE SITE*</samp></div><br>
+				   <div class="text-center"> <samp class="site_descrapatiom">this is desgined by one of our student, it was about one of most important site desgined by him</samp></div><br>
+				   <div class="text-center"><samp class="know_more">Know More</samp></div>
+			   </div>
+			   <div class="pic text-center">
+				   <div class="holder">
+					   <div class="preview">
+						   <img src="image/MYFOLIO.jpg" alt="website">
+					   </div>
+				   </div>
+				   <div  class="text-center"><samp class="site_name">*MYFOLIO SITE*</samp></div><br>
+				   <div class="text-center"> <samp class="site_descrapatiom">this is desgined by one of our student, it was about one of most important site desgined by him</samp></div><br>
+				   <div class="text-center"><samp class="know_more">Know More</samp></div>
+			   </div>
+		   </div>    
+	   </section>
+	<!-- past project end -->
+	<!-- our team start -->
+		<section id="our_team">
+            <div class="section_title text-center">Our Team</div>
+			 <div class="section_description text-center">"This team is the best at all, works together to teach others" </div>
+
+			<div class="overly">
+					<div class="container">
+						<div class="slid_show">
+								<img class="mySlides" src="image/team_image3.jpg" style="width:100%">
+								<img class="mySlides" src="image/team_image2.jpg" style="width:100%">
+								<img class="mySlides" src="image/team_image1.jpg" style="width:100%">
+								<img class="mySlides" src="image/team_image4.jpg" style="width:100%">
+						</div>
+						<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+								<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)"><img src="image/left_buttom.PNG"></div>
+								<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)"><img src="image/rigth_buttom.PNG"></div>
+						</div>
+						<div class="our_team_body text-center">
+							<img src="image/team1.png">
+							<div>We are happy being here for you.</div>
+						</div>
+					</div>
+			</div>
+			<form class="apply_our_team">
+					<div class="text-center applytitle">Apply to our Team</div>
+					<div class="text-center formapply">
+						<input type="text" value="frist name" class="fname" onfocus="this.value=''"> <br>
+						<input type="text" value="second name" class="sname" onfocus="this.value=''"> <br>
+						<input type="text" value="your mail" class="appmail" onfocus="this.value=''"><br>
+						<input type="text" value="Your expernice" class="expernice" onfocus="this.value=''"> 
+					</div>
+					<div class="text-center"><button class="apply_button"> apply now</button></div>
+			</form>
+		</section>
+	<!-- our team end -->
+    
+    <!-- our soponsor start -->
+		<section id="soponsor">
+            <div class="address">egypt,cario,westelbald<br>tel: 0124512452 </div>
+            
+             <div class="section_title text-center">SOPONSER</div>
+             <div class="section_description text-center">"this is some examples who support us." </div>
+            <div class="text-center soponsor_logo">
+                <img src="image/logo.png">
+                <img src="image/sponsor_logo3.png">
+            </div>
+    
+			<div class="text-center"><button class="soponsorus">Support Us</button></div>
+            <div id="map"></div>
+        </section>
+	<!-- our soponsor end -->
+	
+	<!-- footer start -->
+		<footer id="footer">    
+            <div class="text-center">Hope we see you in our workshop!<br>All Rights Reserved. 2018</div><br>
+            <div class="text-center up">
+                <a href="#home" class="text-center">up</a> &nbsp;
+                <a href="www.facebook.com">facebook</a> &nbsp;
+                <a href="www.twitter.com">twitter</a> &nbsp;
+            </div>
+        </footer>   
+    <!-- footer end -->
+
+	<script src="script/javascript.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=&v=3&callback=initMap">
+    </script>
+        
+</body>
+</html>
