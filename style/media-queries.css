@@ -1,5 +1,5 @@
 /* for large screen*/
-@media (max-width:1366px){
+@media (min-width:1366px){
     header{
         height: 550px;
     }
@@ -132,9 +132,169 @@
     }
     
     #map {
-        height: 49%;
+        height: 67%;
         width: 52%;
         margin-top: -19%;
+        position: absolute;
+        float: left;
+        margin-left: -51%;
+    }   
+    .address {
+        width: 150px;
+        height: 60px;
+        z-index: 3;
+        margin-left: -50%;
+        margin-top: 0%;
+        position:absolute;
+        padding-left: 10px;
+        padding-top: 10px;
+        background-color: white;
+    }
+    footer {
+        padding-top: 20px;
+        margin-top:310px;
+    }
+    .up {
+        margin-left: 1%;
+        margin-top: 7px;
+    }
+}
+@media (min-width:1200px)and (max-width:1365px){
+    header{
+        height: 550px;
+    }
+    .logo{
+        margin-left: 8%;
+        margin-top: 58px;
+    }
+    .name {
+        margin-left: 12%;
+        font-size: 42px;
+        line-height: 1;
+        margin-top: 40px;
+    }
+    .right_menu {
+        display: block;
+        margin-top: -20px;
+        width: 60%;
+    }
+    .header_conent {
+        font-size: 30px;
+    }
+    #home ul {
+        display: none;
+        margin-top: -40px;
+        margin-left: 20%;
+    }
+    #home ul ul {
+	   top:240%;
+    }
+    .schedule_content {
+        width: 70%;
+        float: left;
+    }
+    .tab button {
+        padding: 15px 15px;
+        width: 160px;;
+    }
+    .tabcontent img {
+        width: 40%;
+        height: 20%;
+        margin-top: -26%;
+    }
+    .suggestions {
+        margin-top: 20px;
+        width: 25%;
+        float: right;
+    }
+    .suggestions .mail {
+        width: 50%;
+    }
+    .suggestions .suggestions_text {
+        width: 70%;
+    }
+    .suggestions_image {
+        display: none;
+    }
+    #blog{
+        margin-top: 430px;
+    }
+    #blog .pic {
+        width: 30%;
+        display: inline-block;
+        margin-left: 10%;
+    }
+    #blog .pic .holder .preview {
+        width: 275px;
+    }
+    .apply_our_team {
+        width: 50%;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: -8px;
+    }
+    
+    .apply_our_team .applytitle {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }    
+    #our_team .overly {
+        background:rgba(0,0,0,0.2);
+        width:51%;
+        height:100%;
+        float: right;
+        margin-top: 50px;
+    }
+    #our_team {
+        margin-top: 100px;
+    }
+    .w3-left, .w3-right {
+        display: block;
+    }
+    .our_team_body {
+        color: white;
+        text-shadow: 2px 2px brown;
+        font-size: 25px;
+        font-weight: bolder;
+        margin-top: -110px;
+    }
+    
+    #soponsor {
+        height: 300px;
+        background-color: rgb(225,160,66);
+        margin-left: -8px;
+        padding-top: 20px;
+        margin-top: 0px;
+        width: 50%;
+        float: right;
+    }
+    
+    #soponsor .section_description {
+        text-shadow: 0px 0px ;
+        color: rgb(128,0,64);
+    }
+    
+    .soponsor_logo {
+        margin-top: 20px;
+    }
+    
+    .soponsorus {
+        width: 100px;
+        height: 30px;
+        margin-top: 40px;
+        color: rgb(225,160,66);
+        font-weight: bold;
+        background-color: rgb(128,0,64);
+        border-color: rgb(128,0,64);
+    }
+    
+    #map {
+        height: 76%;
+        width: 52%;
+        margin-top: -21%;
         position: absolute;
         float: left;
         margin-left: -51%;
@@ -176,10 +336,11 @@
         display: none;
     }
     #home ul {
+        display: block;
         margin-top: -50px;
+        margin-left: 50%;
     }
     #home ul ul {
-        display:none;
         position:absolute;
         top:220%;
     }
@@ -192,10 +353,12 @@
     .tabcontent img {
         width: 50%;
         height: 80%;
+        margin-top: -240px;
     }
     .suggestions {
-        margin-top: 50px;
+        margin-top: 0px;
         width: 100%;
+        float: left;
     }
     .suggestions .mail {
         width: 200%;
@@ -205,15 +368,12 @@
     }
     .suggestions_image {
         display: none;
-        margin-left: 180%;
-        margin-top: -180px;
-        width: 150px;
     }
     .submit {
         margin-left: 100%;
     }
     #blog{
-        margin-top: 60px;
+        margin-top: 760px;
     }
     .suggestions {
         width: 30%;
@@ -221,21 +381,28 @@
     #blog .pic {
         width: 100%;
         display: block;
-        margin-left: -3%;
+        margin-left: 0%;
+    }
+    #blog .pic .holder{
+        margin-left: 0%;
     }
     #blog .pic .holder .preview {
         width: 417px;
+        margin-left: 0%;
+    }
+    #our_team .overly {
+        width:102%;
+        margin-left: -18px;
+    }
+    .our_team_body {
+        margin-top: -140px;
     }
     .apply_our_team {
         width: 100%;
-        margin-top: 70px;
-    }
-    
-    #our_team .apply_our_team .formapply input {
-        width: 300px;
+        margin-top: 20px;
     }
     #map{
-        width: 150%;
+        width: 160%;
         height: 220px;
         margin-top: 65px;
     }
@@ -244,10 +411,10 @@
         margin-left: 20%;
     }
     footer {
-        margin-top: 220px;
+        margin-top: 530px;
     }
     #soponsor {
-        width: 100%;
+        width: 102%;
         margin-left: -8px;
     }
 }
@@ -339,6 +506,9 @@
 
 /*medium screen*/
 @media (min-width:992px) and (max-width:1199px){
+    header {
+        height: 550px;
+    }
     .logo{
         margin-left: 5%;
     }
@@ -346,8 +516,17 @@
         margin-left: 10%;
     }
     .right_menu {
-        margin-left: 35%;
-        width: 65%;
+        display: block;
+        margin-top: -40px;
+        width: 60%;
+    }
+    .header_conent {
+        font-size: 30px;
+    }
+    #home ul {
+        display: none;
+        margin-top: -40px;
+        margin-left: 20%;
     }
     .schedule_content {
         width: 65%;
@@ -356,13 +535,24 @@
         padding: 14px 15px;
     }
     .suggestions {
+        float: right;
         width: 30%;
+        margin-top: 50px;
+    }
+    #blog {
+        margin-top: 480px;
+    }
+    #blog .pic .holder {
+        margin-left: 15%;
     }
     #blog .pic .holder .preview {
-        width: 250px;
+        width: 420px;
     }
     #map{
         height: 320px;
-        margin-top: -1.8%;
+        margin-top: 4%;
+    }
+    footer {
+        margin-top: 295px;
     }
 }
